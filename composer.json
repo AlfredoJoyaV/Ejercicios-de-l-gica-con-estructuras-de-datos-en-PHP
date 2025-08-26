@@ -1,0 +1,15 @@
+{
+    "name": "erick/estructurasdedatosenphp",
+    "autoload": {
+        "psr-4": {
+            "Erick\\Estructurasdedatosenphp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Erick Joya",
+            "email": "ejoyavaz@gmail.com"
+        }
+    ],
+    "require": {}
+}

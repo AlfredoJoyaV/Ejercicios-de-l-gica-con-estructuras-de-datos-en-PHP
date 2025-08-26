@@ -3,6 +3,7 @@
 require_once __DIR__ ."/src/Ejercicio1.php";
 require_once __DIR__ ."/src/Ejercicio2.php";
 require_once __DIR__ ."/src/Ejercicio3.php";
+require_once __DIR__ ."/src/Ejercicio4.php";
 
 use Erick\Estructurasdedatosenphp\Ejercicio1;
 echo"<div>";
@@ -40,4 +41,13 @@ echo "<h1>Ejercicio 3: Problema de Frecuencia de Caracteres</h1>";
 echo "<h2>Implementa una funcion que tome una cadena de texto y devuelva un array asociativo que muestre la frecuencia de cada caracter en la cadena</h2>";
 echo "<p>*Ocupamos la descripcion del ejercicio 3 para el conteo de cadenas frecuentes*</p>";
 print_r($result);
+echo "</div>";
+
+use Erick\Estructurasdedatosenphp\Ejercicio4;
+echo "<div>";
+$ejercicio4 = new Ejercicio4();
+echo "<h1>Ejercicio 4: Problema de Bucle Anidado</h1>";
+echo "<h2>Escribe un programa que utilice bucles anidados para imprimir un patrón de asteriscos en forma de pirámide</h2>";
+echo "<p>*Usamos el numero 5 para poner esta piramine*</p>";
+echo $result = $ejercicio4->printPyramid(5);
 echo "</div>";
